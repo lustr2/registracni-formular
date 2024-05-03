@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  background-image: url(./img/rocket.svg);
+  background-size: contain;
+}
+
+.formular {
+  display: table;
+  background-color: floralwhite;
+  column-count: 2;
+  box-sizing: border-box;
+  padding: 20px;
+ }
